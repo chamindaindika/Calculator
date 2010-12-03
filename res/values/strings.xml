@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, calculator!</string>
+    <string name="app_name">Calculator</string>
+    <string name="first_no">First No.</string>
+    <string name="second_no">Second No.</string>  
+    <string name="plus">+</string>  
+    <string name="minus">-</string>  
+    <string name="multiple">*</string>  
+    <string name="devide">/</string>      
+    <string name="sin_app_name">කැල්ක්‍යුලේටරය</string>
+    <string name="sin_first_no">පළමු අංකය</string>
+    <string name="sin_second_no">දෙවන අංකය</string>     
+</resources>

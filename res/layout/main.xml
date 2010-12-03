@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView android:text="@+string/first_no" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:numeric="integer|signed|decimal" android:id="@+id/firstNo"></EditText>
+<TextView android:text="@+string/second_no" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:numeric="integer|signed|decimal" android:id="@+id/secondNo"></EditText>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+<Button android:text="@+string/plus" android:id="@+id/Button01" android:layout_height="wrap_content" android:textSize="40px" android:layout_width="50px"></Button>
+<Button android:text="@+string/minus" android:id="@+id/Button02" android:layout_height="wrap_content" android:layout_width="50px" android:textSize="40px"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/Button03" android:text="@+string/multiple" android:textSize="40px" android:layout_width="50px"></Button>
+<Button android:text="@+string/devide" android:layout_height="wrap_content" android:id="@+id/Button04" android:textSize="40px" android:layout_width="50px"></Button>
+</LinearLayout>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="60px" android:id="@+id/answer"></TextView>
+</LinearLayout>
